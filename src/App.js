@@ -120,6 +120,7 @@ class App extends Component {
               key={tabDetails.tabId}
               tabDetails={tabDetails}
               tabItemSelected={this.tabItemSelected}
+              isCheckedValue={selectedTab === tabDetails.tabId}
             />
           ))}
         </ul>

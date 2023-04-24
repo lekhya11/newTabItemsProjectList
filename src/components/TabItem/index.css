@@ -8,6 +8,21 @@
   }
 }
 
+.tab-btn-highlight {
+  border-bottom: 5px solid red;
+  color: pink;
+  font-family: 'Roboto';
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+
+  cursor: pointer;
+}
+
 .tab-btn {
   font-family: 'Roboto';
   color: #9aa5b1;
